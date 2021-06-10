@@ -1,0 +1,28 @@
+{
+  "name": "platzitest",
+  "version": "1.0.0",
+  "description": "Unit test jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "jest",
+    "test"
+  ],
+  "author": "Daniel Gomez <dagoza01@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@types/jest-diff": "^24.3.0",
+    "@types/pretty-format": "^24.3.0",
+    "babel-jest": "^27.0.1",
+    "jest": "^27.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}

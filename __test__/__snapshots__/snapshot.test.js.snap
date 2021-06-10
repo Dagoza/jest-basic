@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Snapshot Should be same to snapshot 1`] = `
+Object {
+  "gender": "Male",
+  "id": 1,
+  "name": "Rick Sanchez",
+  "species": "Human",
+  "status": "Alive",
+}
+`;
+
+exports[`Testing Snapshot Snapshot with fails 1`] = `
+Object {
+  "createdAt": Any<Date>,
+  "id": Any<Number>,
+  "name": "Daniel gz",
+}
+`;
